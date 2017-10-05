@@ -164,13 +164,16 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <Button
+                <ImageView
                     android:id="@+id/southShield1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_weight="1"
+                    android:layout_gravity="center"
                     android:onClick="onClickSheild"
+                    android:background="@drawable/shield_down"
                     android:text="방패" />
+
 
                 <Button
                     android:id="@+id/southShield2"

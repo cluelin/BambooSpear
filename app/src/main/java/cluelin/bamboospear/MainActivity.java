@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.bumptech.glide.Glide;
+
 public class MainActivity extends Activity {
 
     Camp northCamp, southCamp;
@@ -24,6 +26,9 @@ public class MainActivity extends Activity {
 
 //        Toast.makeText(this, "토스트", Toast.LENGTH_SHORT).show();
 
+        GlideDrawableImageViewTarget imageViewTarget = new GlideDrawableImageViewTarget(iv);
+
+        Glide.with(this).load(R.raw.unity).into(imageViewTarget);
     }
 
 
@@ -53,6 +58,11 @@ public class MainActivity extends Activity {
 
 
             case R.id.southShield1:
+
+
+
+
+                출처: http://itpangpang.xyz/243 [ITPangPang]
                 reinforcingShield = new ReinforcingShield(southCamp, 0);
                 break;
             case R.id.southShield2:
