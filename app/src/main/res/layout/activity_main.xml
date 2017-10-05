@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <GridLayout
+            android:id="@+id/NorthCamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:rowCount="3">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/northCrossBow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌" />
+
+                <Button
+                    android:id="@+id/northCrossBow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌" />
+
+                <Button
+                    android:id="@+id/northCrossBow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌" />
+
+                <Button
+                    android:id="@+id/northCrossBow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌" />
+
+                <Button
+                    android:id="@+id/northCrossBow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/northShield1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/northShield2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/northShield3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/northShield4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/northShield5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+
+            </LinearLayout>
+
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+        </LinearLayout>
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:orientation="horizontal"
+            android:rowCount="3"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_rowWeight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/southShield1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/southShield2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/southShield3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/southShield4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+                <Button
+                    android:id="@+id/southShield5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickSheild"
+                    android:text="방패" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/southCrossBow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <Button
+                    android:id="@+id/southCrossBow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <Button
+                    android:id="@+id/southCrossBow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <Button
+                    android:id="@+id/southCrossBow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <Button
+                    android:id="@+id/southCrossBow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClickCrossBow"
+                    android:text="쇠뇌"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
